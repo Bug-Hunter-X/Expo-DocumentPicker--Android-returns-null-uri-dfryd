@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  After selecting a file, the promise sometimes resolves with a null uri, even though the file selection process appears to have completed successfully. This leads to unexpected behavior in applications that rely on accessing the selected file's data.
